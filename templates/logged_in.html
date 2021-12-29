@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="/static/logged_in.css">
+    </head>
+    <body>
+        <div style=" background-color: #B4AEE8;">
+            <h1 style="margin-top:10%; margin-left: 25%;">Welcome to the Facility {{emp_data['email']}}.</h1>
+            <h1 style=" margin-left: 25%;">Scan Again to Exit the Facility.</h1>
+
+            <form action="" method="POST" enctype="multipart/form-data">
+                <p style = "margin-top:8%;margin-left: 36%; margin-bottom: 10%;"><label>Upload QR : </label>
+                <input  style="margin-bottom: 10%;" type="file" name="qr">
+                <button class="signin_button" type="submit">EXIT</button>
+            </form>
+        </div>
+    </body>
+</html>

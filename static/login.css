@@ -1,0 +1,46 @@
+html{
+    font-family: 'Klee One', cursive;
+  }
+
+.outer_div {
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.p_1 {
+    font-size: x-large;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.p_2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 40%;
+    font-size: xxx-large;
+    padding-bottom: 5%;
+}
+
+.p_3 {
+    font-size: x-large;
+    padding-left: 23%;
+}
+
+button {
+    width: 150px;
+    height: 45px;
+    float:right;
+    border: none;
+    font-size: inherit;
+    background-color: #F6D860;
+    font-weight: bold;
+    border-radius:20px;
+    color: #334257;
+    cursor: pointer;
+  }
+
+button : hover{
+    background-color: #39A2DB;
+  }
+  

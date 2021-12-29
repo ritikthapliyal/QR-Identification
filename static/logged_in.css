@@ -1,0 +1,25 @@
+
+html{
+    font-family: 'Klee One', cursive;
+  }
+
+
+.signin_button{
+    width: 100px;
+    height: 70px;
+    font-size: inherit;
+    background-color: #E4FBFF;
+    font-weight: bold;
+    border-radius:20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: inherit;
+    color: #726A95;
+    padding-bottom: 4px;
+    margin-left: 50%;
+    margin-bottom: 7%;
+    margin-left:10%
+  }
+.signin_button:hover{
+    background-color: #39A2DB;
+  }

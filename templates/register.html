@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="/static/register.css">
+  </head>
+  <body>
+      <main class="main_body">
+          <form method="POST" style="background-color: #93B5C6;" action="/register">
+              <div class="signin">
+                <input class="signin_input" type="text" name = "name" placeholder="Enter name" required>
+                <input class="signin_input" type="email" name="email" placeholder="Enter E-mail" required>
+                <input class="signin_input" type="text" name = "password" placeholder="Enter Password" required>
+                <input class="signin_input" type="date" id="birthday" name="birthday" placeholder="DOB">
+                <button class="signin_button" type="submit">Register</button>
+              </div>
+          </form>
+      </main>
+  </body>
+</html>
+
+
+
+
+
+<!-- <html>
+    <body>
+        <form method='POST' action='/register' >
+            Please enter name: <input type="text" name = "name"><br>
+            Please enter email: <input type="text" name = "email"><br>
+            Please enter password: <input type="text" name = "password"><br>
+            Please select you date of birth: <input type="date" id="birthday" name="birthday"><br>
+            <button type="submit">register</button>
+        </form>
+    </body>
+</html> -->
